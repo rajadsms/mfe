@@ -2,7 +2,8 @@ name: deploy-container
 
 on:
   push:
-    branches: -master
+    branches:
+      - master
     paths:
       - "packages/container/**"
 
@@ -16,8 +17,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+
+      - uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "mfedemo" #Must be unique in Heroku
+          heroku_app_name: "mfedemo"
           heroku_email: "raja.dsms@gmail.com"
