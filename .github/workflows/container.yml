@@ -23,7 +23,7 @@ jobs:
 
 defaults:
   run:
-    working-directory: ./packages/container
+    working-directory: packages/container
 
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.12.12
