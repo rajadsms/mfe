@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <>
-      <h1>RajaDey from Container</h1>
+      <h1>RajaDey from Containers</h1>
       <hr />
       <div ref={ref}></div>
     </>
