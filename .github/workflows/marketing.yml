@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - "packages/narketing/**"
+      - "packages/marketing/**"
 
 defaults:
   run:
