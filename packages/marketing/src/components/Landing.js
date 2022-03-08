@@ -87,8 +87,7 @@ export default function Album() {
               color="textSecondary"
               paragraph
             >
-              on below—its contents, the creator, etc. Make it short and sweet,
-              but not too short so folks donsadsadsimply skip over it entirely.
+              I am changed
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
