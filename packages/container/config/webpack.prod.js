@@ -14,7 +14,7 @@ const prodConfig = {
     new ModuleFederationPlugin({
       name: "container", //not use but good to use
       remotes: {
-        marketingAlias: `marketingGloabalVar@${domain}/marketing/latest/remoteentry.js`,
+        marketingAlias: `marketingGloabalVar@${domain}/marketing/latest/remoteEntry.js`,
       },
       shared: packageJson.dependencies,
     }),
